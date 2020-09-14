@@ -1,0 +1,36 @@
+#popup-content{
+    text-align: center;
+}
+html, body {
+    width: 150px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .button {
+    margin: 3% auto;
+    padding: 4px;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .open:hover {
+    background-color: #CFF2F2;
+  }
+  
+  .open {
+    background-color: #E5F2F2;
+  }
+  
+  .close {
+    background-color: #FBFBC9;
+  }
+  
+  .close:hover {
+    background-color: #EAEA9D;
+  }
+  
+  

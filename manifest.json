@@ -1,0 +1,29 @@
+{
+    "manifest_version": 2,
+    "name": "UpWorkBeastify",
+    "version": "2.0",
+    "description": "this will open the jobs",
+    "icons": {
+        "48": "icons/upwork.png"
+    },
+    "browser_action": {
+        "default_icon": "icons/upwork.png",
+        "default_title": "UpWorkBeastify",
+        "default_popup": "popup/choose_beast.html"
+    },
+    "permissions": [
+        "<all_urls>",
+        "storage",
+        "tabs"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.upwork.com/*"
+            ],
+            "js": [
+                "logic.js"
+            ]
+        }
+    ]
+}

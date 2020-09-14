@@ -1,0 +1,1 @@
+web-ext sign --api-key=user:16294586:164 --api-secret=9220b15b7af3396b052901fbdad5abcf221bf644ad2f536976da3e408cd566e9
